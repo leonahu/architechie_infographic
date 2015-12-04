@@ -8,20 +8,81 @@
 
  /*Typography*/
 
+  .site-title {
+   font-family: Lato-Regular;
+   font-size: 38px;
+   color: #50E3C2;
+   letter-spacing: 5.42px;
+   line-height: 46px;
+   margin-top: 90px;
+  }
+
+  .sub-title{
+
+    font-family: Lato-Regular;
+    font-size: 18px;
+    color: #50E3C2;
+    letter-spacing: 2.57px;
+    line-height: 22px;
+  }
+
+
+  .text-intro{
+
+    font-family: Lato-Light;
+    font-size: 16px;
+    color: #FFFFFF;
+    letter-spacing: 2.28px;
+    line-height: 19px;
+    max-width:390px;
+
+  }
+
+  #author {
+
+    font-family: Lato-LightItalic;
+    font-size: 16px;
+    color: #FFFFFF;
+    letter-spacing: 2.28px;
+    line-height: 19px;
+  }
 
 
 
 
- /*Section*/
+ /*Section 1 Intro*/
 
   .sect-intro {
     background: #252E38;
+    background-image:url(img/section1_bg.svg);
+    background-repeat: no-repeat;
+    background-position: center;
     color:#fff;
     text-align: center;
+    height:590px;
+    z-index:99;
   }
 
- .sect-top {
+
+  .title-border-architechie {
+   margin-top: 10px;
+   margin-bottom: 10px;
+   width:360px;
+   border: 2px solid #50DEB4;
+  }
+
+
+
+ /*Section 1.5 Architect & UX Designer*/
+  .sect-top {
    background: #252E38;
    color:#fff;
    height:800px;
+   z-index: 1;
+
  }
+
+  .arch-1 {
+    margin: 0 auto:
+
+  }
