@@ -3,6 +3,7 @@
 
   body{
     font-family: font-family: 'Lato', sans-serif;
+    background: #252E38;
   }
 
 
@@ -60,7 +61,7 @@
     color:#fff;
     text-align: center;
     height:590px;
-    z-index:99;
+
   }
 
 
@@ -78,10 +79,10 @@
 
  /*Section 1.5 Architect & UX Designer*/
   .sect-education {
-   background: #252E38;
    color:#fff;
    height:800px;
    z-index: 1;
+   margin-top: -180px
 
  }
 
